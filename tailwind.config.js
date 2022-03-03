@@ -8,24 +8,28 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        bottom: "inset 0px -11px 0px   #Fe5000",
-        bottom2: "inset 0px -13px 0px   #Fe5000",
-        bottom3: "inset 0px -14px 0px   #Fe5000",
-        bottom4: "inset 0px -11px 0px   #525252",
+        bottom: "inset 0px -11px 0px   #dc2626",
+        bottom2: "inset 0px -13px 0px   #dc2626",
+        bottom3: "inset 0px -14px 0px   #dc2626",
+        bottom4: "inset 0px -11px 0px   #dc2626",
       },
       backgroundImage: {
-        hero: "url('/bluegray3.jpg')",
-        quote: "url('/dots.svg)",
+        hero: "url('/shooting-bg.jpg')",
+        quote: "url('/dots.svg')",
+        testimonial: "url('/bluegray3.jpg')",
       },
       colors: {
-        highlight1: "#fe5000",
-        highlight2: "#22d3ee",
+        highlight1: "#dc2626",
+        highlight2: "#14b8a6",
         dark: "#45433e",
+        text1: "#8e0e00",
+        text2: "#1f1c18",
+        text3: "#E94057",
       },
       fontFamily: {
-        logo: ["Play"],
+        logo: ["Space Grotesk"],
         display: ["Poppins"],
-        body: ["Space Grotesk"],
+        body: ["Poppins"],
       },
     },
   },

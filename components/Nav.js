@@ -40,7 +40,7 @@ export default function Nav() {
   const [animateNav, setAnimateNav] = useState(false);
   useEffect(() => {
     const listener = () => {
-      if (window.scrollY > 140) {
+      if (window.scrollY > 650) {
         setAnimateNav(true);
       } else setAnimateNav(false);
     };
@@ -53,19 +53,19 @@ export default function Nav() {
 
   return (
     <nav
-      className={`text-neutral-800 w-full flex backdrop-blur-sm justify-between  font-display  fixed z-50 transition ease-in-out duration-500 ${
+      className={`text-neutral-100 w-full flex backdrop-blur-sm justify-between  font-body  fixed z-50 transition ease-in-out duration-500 ${
         animateNav && "shadow-xl "
       }`}
     >
       <div
         className={`flex w-screen py-4 bg-transparent   ${
           animateNav &&
-          "py-0  backdrop-blur-lg bg-neutral-300/20 trasition ease-in-out duration-500"
+          "py-0   backdrop-blur-lg bg-neutral-800/60 trasition ease-in-out duration-500"
         } mx-auto   justify-between `}
       >
         <Link href="/">
-          <a className="inline-flex mx-4 my-4 text-2xl tracking-widest transition duration-100 ease-in-out transform cursor-pointer font-logo md:text-3xl md:ml-8 lg:ml-16 ">
-            My Company
+          <a className="inline-flex mx-4 my-4 text-2xl font-semibold cursor-pointer font-logo md:text-3xl md:ml-8 lg:ml-16">
+            NX01
           </a>
         </Link>
 
@@ -73,7 +73,7 @@ export default function Nav() {
         <AnimatePresence>
           {open && (
             <motion.aside
-              className="fixed top-0 right-0 h-screen bg-highlight1 md:hidden overflow"
+              className="fixed top-0 right-0 h-screen bg-neutral-800 md:hidden overflow"
               initial={{ width: 0 }}
               transition={{ type: "tween" }}
               animate={{
@@ -91,7 +91,7 @@ export default function Nav() {
                 exit="closed"
                 variants={sideVariants}
               >
-                <div className="pt-12 pb-16 tracking-widest border-b-2 font-logo border-neutral-100">
+                <div className="pt-12 pb-16 border-b-2 border-neutral-100">
                   My Company
                 </div>
 

@@ -7,7 +7,7 @@ const tiers = [
   {
     name: "Static",
     href: "#",
-    price: 749,
+    price: 949,
     description: "A quick way to get your business online.",
     features: [
       "One multi-page, multi-section website (up to 3 pages)",
@@ -21,7 +21,7 @@ const tiers = [
   {
     name: "Dynamic",
     href: "#",
-    price: 1249,
+    price: 1849,
     description: "Gives you the power to edit.",
     features: [
       "One multi-page, multi-section website (up to 6 pages)",
@@ -60,13 +60,13 @@ export default function Pricing() {
                 {tiers.map((tier) => (
                   <div
                     key={tier.name}
-                    className="flex flex-col mx-2 overflow-hidden border shadow-md border-highlight1"
+                    className="flex flex-col mx-2 overflow-hidden border shadow-md rounded-xl border-highlight2"
                   >
                     <div className="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                       <div className="flex flex-row">
                         <Arrow />
                         <h3
-                          className="inline-flex px-2 py-1 text-xl font-semibold tracking-wide uppercase md:text-2xl text-neutral-800 "
+                          className="inline-flex px-2 py-1 text-xl font-semibold tracking-wide uppercase md:text-2xl text-neutral-900 "
                           id="tier-standard"
                         >
                           {tier.name}
@@ -86,11 +86,11 @@ export default function Pricing() {
                           <li key={feature} className="flex items-start">
                             <div className="flex-shrink-0">
                               <CheckIcon
-                                className="w-6 h-6 text-highlight1"
+                                className="w-6 h-6 text-highlight2"
                                 aria-hidden="true"
                               />
                             </div>
-                            <p className="ml-3 text-base text-neutral-800">
+                            <p className="ml-3 text-base text-neutral-900">
                               {feature}
                             </p>
                           </li>
@@ -99,7 +99,7 @@ export default function Pricing() {
                       <div className="">
                         <a
                           href={tier.href}
-                          className="flex items-center justify-center px-5 py-3 text-base font-medium border shadow-md text-neutral-800 bg-highlight1 border-highlight1 shadow-neutral-500/50 hover:text-highlight1 hover:bg-transparent"
+                          className="flex items-center justify-center px-5 py-3 text-base font-medium border rounded-lg shadow-md text-neutral-900 bg-highlight2 border-highlight2 shadow-neutral-500/50 hover:text-highlight2 hover:bg-transparent"
                           aria-describedby="tier-standard"
                         >
                           Get started
@@ -123,7 +123,7 @@ export default function Pricing() {
                 ** Custom email hosting/
                 <a
                   href="https://workspace.google.com/pricing.html?gclid=CjwKCAiA55mPBhBOEiwANmzoQmEuufRueGbdWlalzcLKSN_WebvB_43Mrwr9IBaGv5gXlLcFq29VgBoCFnMQAvD_BwE&gclsrc=aw.ds"
-                  className="italic text-highlight1"
+                  className="italic text-highlight2"
                 >
                   Google Workspace
                 </a>{" "}

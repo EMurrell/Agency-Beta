@@ -12,9 +12,9 @@ export default function Contact() {
   return (
     <footer
       id="Contact"
-      className="flex flex-col px-8 pt-10 xl:h-auto md:px-24 lg:px-52 text-neutral-700 font-display "
+      className="flex flex-col px-8 pt-2 xl:h-auto md:px-24 lg:px-52 bg-neutral-900 text-neutral-100 font-display "
     >
-      <div className="flex flex-col py-20 border-t 2xl:py-20 lg:flex-row border-neutral-200">
+      <div className="flex flex-col py-20 2xl:py-20 lg:flex-row ">
         <FadeUp>
           <h1 className="pr-2 mb-12 text-4xl font-medium md:text-5xl lg:text-6xl lg:w-1/2">
             Let&apos;s make something great.

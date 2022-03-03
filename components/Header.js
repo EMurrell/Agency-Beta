@@ -5,7 +5,6 @@ import FadeUp from "../animations/FadeUp";
 import FadeIn from "../animations/FadeIn";
 import FadeRight from "../animations/FadeRight";
 import FadeLeft from "../animations/FadeLeft";
-
 import { ArrowRightIcon } from "@heroicons/react/outline";
 import DelayedFadeIn from "../animations/DelayedFadeIn";
 import Link from "next/link";
@@ -15,7 +14,7 @@ export default function Header() {
   return (
     <section
       id="Home"
-      className="flex flex-col w-full px-2 pt-20 overflow-y-visible bg-center bg-no-repeat bg-cover text-neutral-700 bg-hero font-display md:px-10 lg:px-20 xl:px-28 "
+      className="flex flex-col w-full px-2 pt-20 text-white bg-center bg-cover bg-hero font-display md:px-10 lg:px-20 xl:px-28 "
     >
       <main className="flex flex-col justify-center h-screen pt-8 pl-2 font-semibold tracking-tight lg:font-medium pb-28 md:tracking-normal md:pb-16">
         <FadeUp>
@@ -25,7 +24,7 @@ export default function Header() {
         </FadeUp>
 
         <motion.h1
-          className="flex flex-row text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl"
+          className="flex flex-row text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl "
           initial="hidden"
           animate="visible"
           variants={{
@@ -49,7 +48,7 @@ export default function Header() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-12 h-12 md:h-16 md:w-16 lg:h-20 lg:w-20 2xl:h-24 2xl:w-24 text-highlight1"
+            className="w-12 h-12 text-highlight2 md:h-16 md:w-16 lg:h-20 lg:w-20 2xl:h-24 2xl:w-24"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -65,8 +64,8 @@ export default function Header() {
         </motion.h1>
 
         <DelayedFadeIn>
-          <Link href={"/#About"} passHref>
-            <button className="px-6 py-2 mt-2 mb-20 ml-1 text-lg font-medium bg-white border-2 shadow-lg cursor-pointer hover:text-white lg:px-10 lg:py-3 2xl:ml-2 border-highlight1 lg:mt-4 lg:text-2xl text-highlight1 shadow-neutral-600/30 hover:bg-highlight1">
+          <Link href={"/#Pricing"} passHref>
+            <button className="px-6 py-2 mt-2 mb-20 ml-1 text-lg font-medium text-black border-2 rounded-lg shadow-lg cursor-pointer bg-highlight2 hover:text-highlight2 border-highlight2 lg:px-10 lg:py-4 2xl:ml-2 lg:mt-4 lg:text-xl shadow-neutral-600/30 hover:bg-transparent">
               Learn More
             </button>
           </Link>
