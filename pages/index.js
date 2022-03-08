@@ -8,6 +8,8 @@ import Header from "../components/Header";
 import Testimonial from "../components/Testimonial";
 import Features from "../components/Features";
 import Faq from "../components/Faq";
+import Price1 from "../components/Price1";
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -16,8 +18,10 @@ export default function Home() {
       <Nav />
       <Header />
       <Features />
+      <About />
       <Testimonial />
-      <Pricing />
+      <Price1 />
+      {/* <Pricing /> */}
       <Faq />
       <Contact />
     </>

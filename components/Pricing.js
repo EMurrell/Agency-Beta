@@ -38,14 +38,14 @@ const tiers = [
 
 export default function Pricing() {
   return (
-    <section id="Pricing" className="pt-12 font-display">
+    <section id="Pricing" className="mt-20 font-display">
       <FadeIn>
         <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto space-y-1 lg:max-w-none">
-            <p className="text-4xl font-medium text-neutral-800 lg:text-6xl">
+            <p className="text-4xl font-medium text-neutral-900 lg:text-6xl">
               Pay Once.
             </p>
-            <p className="pt-1 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-800">
+            <p className="pt-1 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
               No monthly hosting fees.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function Pricing() {
                 {tiers.map((tier) => (
                   <div
                     key={tier.name}
-                    className="flex flex-col mx-2 overflow-hidden border shadow-md rounded-xl border-highlight2"
+                    className="flex flex-col mx-2 overflow-hidden border rounded-md shadow-lg border-highlight2 shadow-neutral-700/50"
                   >
                     <div className="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                       <div className="flex flex-row">
@@ -99,7 +99,7 @@ export default function Pricing() {
                       <div className="">
                         <a
                           href={tier.href}
-                          className="flex items-center justify-center px-5 py-3 text-base font-medium border rounded-lg shadow-md text-neutral-900 bg-highlight2 border-highlight2 shadow-neutral-500/50 hover:text-highlight2 hover:bg-transparent"
+                          className="flex items-center justify-center px-5 py-3 text-base font-medium border-2 rounded-md shadow-lg text-neutral-900 bg-highlight2 border-highlight2 shadow-neutral-800/50 hover:text-highlight2 hover:bg-transparent"
                           aria-describedby="tier-standard"
                         >
                           Get started

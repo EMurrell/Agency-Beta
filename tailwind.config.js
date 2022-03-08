@@ -8,15 +8,15 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        bottom: "inset 0px -11px 0px   #dc2626",
-        bottom2: "inset 0px -13px 0px   #dc2626",
-        bottom3: "inset 0px -14px 0px   #dc2626",
-        bottom4: "inset 0px -11px 0px   #dc2626",
+        bottom: "inset 0px -11px 0px   #14b8a6",
+        bottom2: "inset 0px -13px 0px   #14b8a6",
+        bottom3: "inset 0px -14px 0px   #14b8a6",
+        bottom4: "inset 0px -11px 0px   #14b8a6",
       },
       backgroundImage: {
         hero: "url('/shooting-bg.jpg')",
         quote: "url('/dots.svg')",
-        testimonial: "url('/bluegray3.jpg')",
+        testimonial: "url('/bluegray4.jpg')",
       },
       colors: {
         highlight1: "#dc2626",

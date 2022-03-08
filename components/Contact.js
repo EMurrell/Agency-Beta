@@ -22,6 +22,13 @@ export default function Contact() {
         </FadeUp>
         <FadeIn>
           <div className="flex flex-col text-base lg:text-lg">
+            <div>
+              <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
+                <h2 className="flex flex-row w-max">Business Hours:</h2>
+                <p className=" text-neutral-500 font-body">Monday to Friday</p>
+                <p className=" text-neutral-500 font-body">9:00am to 4:00pm</p>
+              </div>
+            </div>
             <a href="mailto:emurrell.dev@gmail.com">
               <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
                 <h2 className="flex flex-row w-max">
@@ -33,13 +40,13 @@ export default function Contact() {
                 </p>
               </div>
             </a>
-            <a href="">
+            <a href="tel:+1-613-601-0262">
               <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
                 <h2 className="flex flex-row w-max">
                   Phone &nbsp;
                   <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
                 </h2>
-                <p className=" text-neutral-500 font-body">(613) 555-1234</p>
+                <p className=" text-neutral-500 font-body">(613) 601-0262</p>
               </div>
             </a>
             <a href="https://twitter.com/emurrelldev">
@@ -57,12 +64,6 @@ export default function Contact() {
         </FadeIn>
       </div>
       <div className="flex flex-col justify-center py-12 text-base text-center border-t border-neutral-200 lg:text-lg text-neutral-500">
-        <div className="flex flex-row justify-center pb-1">
-          Built with&nbsp;
-          <Nextdotjs className="w-6 h-6 mx-2" />
-          <Tailwindcss className="w-6 h-6 mx-2" />
-          <Framer className="w-6 h-6 mx-2" />
-        </div>
         &copy; {getCurrentYear()} My Company
       </div>
     </footer>

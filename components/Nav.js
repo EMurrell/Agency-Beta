@@ -8,8 +8,8 @@ import { useState, useEffect } from "react";
 
 const links = [
   { name: "About", to: "#About", id: 1 },
-  { name: "Pricing", to: "#Pricing", id: 2 },
-  { name: "FAQ", to: "#FAQ", id: 3 },
+  { name: "Pricing", to: "#Price", id: 2 },
+  { name: "FAQ", to: "#Faq", id: 3 },
   { name: "Contact", to: "#Contact", id: 4 },
 ];
 
@@ -60,7 +60,7 @@ export default function Nav() {
       <div
         className={`flex w-screen py-4 bg-transparent   ${
           animateNav &&
-          "py-0   backdrop-blur-lg bg-neutral-800/60 trasition ease-in-out duration-500"
+          "py-0   backdrop-blur-lg bg-neutral-500/60 trasition ease-in-out duration-500"
         } mx-auto   justify-between `}
       >
         <Link href="/">
@@ -91,9 +91,16 @@ export default function Nav() {
                 exit="closed"
                 variants={sideVariants}
               >
-                <div className="pt-12 pb-16 border-b-2 border-neutral-100">
-                  My Company
-                </div>
+                <Link href="/" passHref>
+                  <a>
+                    <div
+                      className="pt-12 pb-16 border-b-2 border-neutral-100"
+                      onClick={cycleOpen}
+                    >
+                      My Company
+                    </div>
+                  </a>
+                </Link>
 
                 {links.map(({ name, to, id }) => (
                   <motion.a

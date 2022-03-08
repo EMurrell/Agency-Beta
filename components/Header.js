@@ -64,9 +64,9 @@ export default function Header() {
         </motion.h1>
 
         <DelayedFadeIn>
-          <Link href={"/#Pricing"} passHref>
-            <button className="px-6 py-2 mt-2 mb-20 ml-1 text-lg font-medium text-black border-2 rounded-lg shadow-lg cursor-pointer bg-highlight2 hover:text-highlight2 border-highlight2 lg:px-10 lg:py-4 2xl:ml-2 lg:mt-4 lg:text-xl shadow-neutral-600/30 hover:bg-transparent">
-              Learn More
+          <Link href={"/#Contact"} passHref>
+            <button className="py-3 mt-4 mb-20 ml-1 text-lg font-medium border-2 rounded-full shadow-lg cursor-pointer px-7 bg-neutral-800 text-highlight2 hover:text-black border-highlight2 lg:px-10 lg:py-4 2xl:ml-2 lg:mt-4 lg:text-xl shadow-neutral-600/30 hover:bg-highlight2">
+              Contact Us
             </button>
           </Link>
         </DelayedFadeIn>

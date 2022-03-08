@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FadeIn from "../animations/FadeIn";
 
 const features = [
   {
@@ -23,17 +24,17 @@ const features = [
 
 export default function Example() {
   return (
-    <div id="About" className="relative pb-12 bg-white font-display">
+    <div id="" className="relative pb-4 bg-white font-display">
       <div className="h-40 bg-transparent"></div>
       <div className="max-w-md px-4 mx-auto text-center -mt-52 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="py-6">
-                <div className="flow-root px-8 pb-8 mx-6 bg-white border shadow-lg lg:mx-0 md:mx-32 h-72 border-highlight2 rounded-xl">
+                <div className="flow-root px-8 pb-8 mx-6 bg-white border shadow-lg rounded-3xl shadow-neutral-800/50 lg:mx-0 md:mx-32 h-72 border-highlight2 ">
                   <div className="-mt-12">
                     <div>
-                      <span className="inline-flex items-center justify-center p-4 py-6 bg-white border rounded-full shadow-lg border-highlight2">
+                      <span className="inline-flex items-center justify-center p-4 py-6 bg-white border rounded-full shadow-lg shadow-neutral-800/50 border-highlight2">
                         <Image
                           src={feature.image}
                           alt="icon"
@@ -43,10 +44,11 @@ export default function Example() {
                         />
                       </span>
                     </div>
-                    <h3 className="mt-8 text-2xl font-medium tracking-tight text-neutral-900">
+                    <h3 className="mt-6 text-2xl font-medium tracking-tight text-neutral-900">
                       {feature.name}
                     </h3>
-                    <p className="mt-5 text-base font-medium text-neutral-900 font-body">
+
+                    <p className="mt-4 text-base text-neutral-900 font-body">
                       {feature.description}
                     </p>
                   </div>

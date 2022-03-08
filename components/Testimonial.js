@@ -4,32 +4,37 @@ import {
   ArrowNarrowRightIcon,
   ExternalLinkIcon,
 } from "@heroicons/react/outline";
+import FadeUp from "../animations/FadeUp";
+import FadeIn from "../animations/FadeIn";
 
 export default function Testimonials() {
   return (
-    <section className="py-10 overflow-hidden bg-center bg-cover md:py-12 font-display bg-testimonial bg-white-20">
-      <div className="px-8 lg:px-8">
-        <div className="flex flex-col justify-center ">
+    <section className="px-8 py-16 overflow-hidden bg-center bg-cover md:py-12 font-display bg-testimonial ">
+      <div className="flex flex-col justify-center ">
+        <FadeUp>
           <h1 className="py-4 text-2xl font-medium text-center md:text-3xl text-neutral-800">
             What Our Clients Say:
           </h1>
-          <div className="flex self-center w-24 border-t-2 border-highlight2"></div>
-          <blockquote className="mt-4">
-            <div className="max-w-3xl mx-auto text-lg font-medium leading-7 text-center text-neutral-900 md:text-2xl">
+        </FadeUp>
+        <div className="flex self-center w-24 border-t-2 border-highlight2"></div>
+        <blockquote className="mt-4">
+          <FadeIn>
+            <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-neutral-900 md:text-2xl">
               <em>
                 &ldquo;I needed to modernize my old website, and I&apos;m happy
-                I came across (company-name). Eric did a great job designing my
-                new site, and was really easy to work with. I wasn&apos;t really
-                sure what I wanted but they guided me through the whole process.
-                I would easily recommend them.&rdquo;
+                I came across NX01. Eric did a great job designing my new site,
+                and was really easy to work with...they guided me through the
+                whole process. I would easily recommend them.&rdquo;
               </em>
             </div>
-            <footer className="mt-2">
-              <div className="flex flex-col items-center justify-center">
+          </FadeIn>
+          <footer className="mt-2">
+            <div className="flex flex-col items-center justify-center">
+              <FadeIn>
                 <div className="flex flex-col items-center mt-3 text-center">
                   <div className="pl-4 opacity-90">
                     <Image
-                      src="/mtclogo2.png"
+                      src="/mtc-red.png"
                       alt="mtc logo"
                       width={100}
                       height={55}
@@ -49,10 +54,10 @@ export default function Testimonials() {
                     </p>
                   </a>
                 </div>
-              </div>
-            </footer>
-          </blockquote>
-        </div>
+              </FadeIn>
+            </div>
+          </footer>
+        </blockquote>
       </div>
     </section>
   );
