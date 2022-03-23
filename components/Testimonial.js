@@ -22,9 +22,10 @@ export default function Testimonials() {
             <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-neutral-900 md:text-2xl">
               <em>
                 &ldquo;I needed to modernize my old website, and I&apos;m happy
-                I came across NX01. Eric did a great job designing my new site,
-                and was really easy to work with...they guided me through the
-                whole process. I would easily recommend them.&rdquo;
+                I found Trailbridge Web.&nbsp; Eric did a great job designing my
+                new site, and was really easy to work with...they guided me
+                through the whole process.&nbsp; I would easily recommend
+                them.&rdquo;
               </em>
             </div>
           </FadeIn>

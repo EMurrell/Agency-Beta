@@ -4,8 +4,11 @@ import Link from "next/link";
 export default function Meta() {
   return (
     <Head>
-      <title>My Company</title>
-      <meta name="description" content="Web Developer Portfolio" />
+      <title>Trailbridge Web</title>
+      <meta
+        name="description"
+        content="Modern Web Solutions for Small Businesses."
+      />
       <link rel="icon" href="/favicon.ico" />
 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
