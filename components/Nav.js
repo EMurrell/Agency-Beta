@@ -53,19 +53,18 @@ export default function Nav() {
 
   return (
     <nav
-      className={`text-neutral-100 w-full flex backdrop-blur-sm justify-between  font-body  fixed z-50 transition ease-in-out duration-500 ${
-        animateNav && "shadow-xl "
+      className={`text-black w-full flex   justify-between  font-body  fixed z-50 transition ease-in-out duration-500 ${
+        animateNav && "shadow-xl  bg-white"
       }`}
     >
       <div
-        className={`flex w-screen py-4 bg-transparent   ${
-          animateNav &&
-          "py-0   backdrop-blur-lg bg-neutral-500/60 trasition ease-in-out duration-500"
-        } mx-auto   justify-between `}
+        className={`flex w-screen py-4 bg-transparent    ${
+          animateNav && "py-0    bg-white trasition ease-in-out duration-500"
+        } mx-auto   justify-between   `}
       >
         <Link href="/">
           <a className="inline-flex mx-4 my-4 text-2xl font-semibold cursor-pointer font-logo md:text-3xl md:ml-8 lg:ml-16">
-            NX01
+            trailbridge
           </a>
         </Link>
 
@@ -73,7 +72,7 @@ export default function Nav() {
         <AnimatePresence>
           {open && (
             <motion.aside
-              className="fixed top-0 right-0 h-screen bg-neutral-800 md:hidden overflow"
+              className="fixed top-0 right-0 h-screen bg-neutral-200 md:hidden overflow"
               initial={{ width: 0 }}
               transition={{ type: "tween" }}
               animate={{

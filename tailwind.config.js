@@ -14,7 +14,7 @@ module.exports = {
         bottom4: "inset 0px -11px 0px   #14b8a6",
       },
       backgroundImage: {
-        hero: "url('/shooting-bg.jpg')",
+        hero: "url('/hexa.jpg')",
         quote: "url('/dots.svg')",
         testimonial: "url('/bluegray4.jpg')",
       },
