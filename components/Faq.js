@@ -36,10 +36,10 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <section id="Faq" className=" font-display">
-      <div className="px-4 py-20 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <FadeIn>
           <div className="max-w-3xl mx-auto divide-y-2 divide-neutral-200">
-            <h2 className="mt-4 text-3xl font-medium text-center text-neutral-900 sm:text-4xl">
+            <h2 className="mt-12 text-3xl font-medium text-center text-neutral-900 sm:text-4xl">
               Frequently Asked Questions
             </h2>
             <dl className="mt-6 space-y-6 divide-y divide-neutral-200">
