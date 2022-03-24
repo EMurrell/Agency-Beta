@@ -22,7 +22,7 @@ const features = [
   },
 ];
 
-export default function Example() {
+export default function Features() {
   return (
     <div id="" className="relative pb-4 bg-white font-display">
       <div className="h-40 bg-transparent"></div>
@@ -31,10 +31,10 @@ export default function Example() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="py-6">
-                <div className="flow-root px-8 pb-8 mx-6 bg-white border shadow-lg rounded-3xl shadow-neutral-800/50 lg:mx-0 md:mx-32 h-72 border-highlight2 ">
+                <div className="flow-root px-8 pb-8 mx-6 bg-white border-2 rounded-lg shadow-lg shadow-neutral-800/50 lg:mx-0 md:mx-32 h-72 border-highlight2 ">
                   <div className="-mt-12">
                     <div>
-                      <span className="inline-flex items-center justify-center p-4 py-6 bg-white border rounded-full shadow-lg shadow-neutral-800/50 border-highlight2">
+                      <span className="inline-flex items-center justify-center p-4 py-6 bg-white border-2 rounded-full shadow-lg shadow-neutral-800/50 border-highlight2">
                         <Image
                           src={feature.image}
                           alt="icon"

@@ -8,19 +8,19 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        bottom: "inset 0px -11px 0px   #14b8a6",
-        bottom2: "inset 0px -13px 0px   #14b8a6",
-        bottom3: "inset 0px -14px 0px   #14b8a6",
-        bottom4: "inset 0px -11px 0px   #14b8a6",
+        bottom: "inset 0px -11px 0px   #e74c32",
+        bottom2: "inset 0px -13px 0px   #e74c32",
+        bottom3: "inset 0px -14px 0px   #e74c32",
+        bottom4: "inset 0px -11px 0px   #e74c32",
       },
       backgroundImage: {
-        hero: "url('/hexa.jpg')",
+        hero: "url('/trees.jpg')",
         quote: "url('/dots.svg')",
-        testimonial: "url('/bluegray4.jpg')",
+        testimonial: "url('/.jpg')",
       },
       colors: {
         highlight1: "#dc2626",
-        highlight2: "#14b8a6",
+        highlight2: "#e74c32",
         dark: "#45433e",
         text1: "#8e0e00",
         text2: "#1f1c18",

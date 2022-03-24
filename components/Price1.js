@@ -15,7 +15,7 @@ export default function Price() {
   ];
   return (
     <section id="Price" className="flex flex-col justify-center font-display">
-      <div className="px-4 mx-auto mt-20 text-center max-w-7xl sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto mt-24 text-center max-w-7xl sm:px-6 lg:px-8">
         <FadeUp>
           <p className="text-4xl font-medium text-neutral-900 lg:text-6xl">
             Pay Once.
@@ -27,9 +27,9 @@ export default function Price() {
           </p>
         </FadeIn>
       </div>
-      <div className="flex flex-col justify-center mx-8 my-12">
+      <div className="flex flex-col justify-center mx-8 my-16">
         <FadeIn>
-          <div className="flex flex-col justify-between flex-1 px-6 pt-8 pb-16 m-auto space-y-6 border shadow-lg md:px-12 rounded-3xl shadow-neutral-700/50 font-body border-highlight2 max-w-max">
+          <div className="flex flex-col justify-between flex-1 px-6 pt-8 pb-16 m-auto space-y-6 border-2 shadow-lg rounded-xl md:px-12 shadow-neutral-700/50 font-body border-highlight2 max-w-max">
             <h1 className="py-4 text-5xl font-semibold text-neutral-700">
               $ 1849
             </h1>

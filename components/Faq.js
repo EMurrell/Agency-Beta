@@ -7,11 +7,7 @@ const faqs = [
     question: "How long will it take to get my new website?",
     answer: "Projects typically take around 10 business days to complete.",
   },
-  {
-    question: "Will my website require updates and maintenance?",
-    answer:
-      "We use modern jamstack technologies (Next.js, Netlify, etc) that, unlike Wordpress, DO NOT require constant upgrades, plugins, etc.",
-  },
+
   {
     question: "Do you provide on-going support?",
     answer:
@@ -25,12 +21,11 @@ const faqs = [
   {
     question: "What about SEO?",
     answer:
-      "Our websites are developed following SEO best practices, and are optimized for ranking algorithms to easily find your website. ",
+      "Our websites are developed following SEO best practices, and produce very high lighthouse scores.",
   },
   {
     question: "Do you write copy for websites?",
-    answer:
-      "Basic copywriting is included, however if you require a more extensive amount of writing, please inquire.",
+    answer: "Basic copywriting services are available at an additional cost.",
   },
 ];
 
@@ -41,7 +36,7 @@ function classNames(...classes) {
 export default function Example() {
   return (
     <section id="Faq" className=" font-display">
-      <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="px-4 py-20 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <FadeIn>
           <div className="max-w-3xl mx-auto divide-y-2 divide-neutral-200">
             <h2 className="mt-4 text-3xl font-medium text-center text-neutral-900 sm:text-4xl">
