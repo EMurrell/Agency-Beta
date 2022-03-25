@@ -5,7 +5,7 @@ import FadeIn from "../animations/FadeIn";
 const faqs = [
   {
     question: "How long will it take to get my new website?",
-    answer: "Projects typically take around 10 business days to complete.",
+    answer: "Projects typically take around 10-15 business days to complete.",
   },
 
   {

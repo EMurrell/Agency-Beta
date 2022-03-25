@@ -23,13 +23,13 @@ export default function Price() {
         </FadeUp>
         <FadeIn>
           <p className="pt-1 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
-            No monthly hosting fees.
+            No Monthly Hosting Fees.
           </p>
         </FadeIn>
       </div>
-      <div className="flex flex-col justify-center mx-8 my-16">
+      <div className="flex flex-col justify-center mx-8 mt-20 mb-4">
         <FadeIn>
-          <div className="flex flex-col justify-between flex-1 px-6 pt-8 pb-16 m-auto space-y-6 border-2 shadow-lg rounded-xl md:px-12 shadow-neutral-700/50 font-body border-highlight2 max-w-max">
+          <div className="flex flex-col justify-between flex-1 px-6 pt-10 pb-16 m-auto space-y-6 border-2 shadow-lg rounded-xl md:px-12 shadow-neutral-700/50 font-body border-highlight2 max-w-max">
             <h1 className="py-4 text-5xl font-semibold text-neutral-700">
               $ 1849
             </h1>

@@ -26,7 +26,9 @@ export default function Contact() {
               <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
                 <h2 className="flex flex-row w-max">Business Hours:</h2>
                 <p className=" text-neutral-400 font-body">Monday to Friday</p>
-                <p className=" text-neutral-400 font-body">9:00am to 4:00pm</p>
+                <p className=" text-neutral-400 font-body">
+                  9:00am to 4:00pm EST
+                </p>
               </div>
             </div>
             <a href="mailto:hello@trailbridgeweb.com">
