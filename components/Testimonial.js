@@ -9,7 +9,7 @@ import FadeIn from "../animations/FadeIn";
 
 export default function Testimonials() {
   return (
-    <section className="px-8 py-16 overflow-hidden text-white md:py-24 font-display bg-neutral-800 ">
+    <section className="px-8 py-16 overflow-hidden text-white bg-center bg-cover md:py-24 font-display bg-testimonial ">
       <div className="flex flex-col justify-center ">
         <FadeUp>
           <h1 className="py-4 text-2xl font-medium text-center md:text-3xl ">
@@ -49,7 +49,7 @@ export default function Testimonials() {
                     Owner, Mason&apos;s Touch Construction
                   </p>
                   <a href="https://masonstouch.com">
-                    <p className="flex flex-row px-6 py-3 mt-8 text-xl text-black border-2 rounded-full shadow-lg font-body hover:bg-transparent shadow-black/80 hover:text-highlight2 border-highlight2 bg-highlight2">
+                    <p className="flex flex-row px-6 py-3 mt-8 text-xl text-black border-2 rounded-full shadow-lg font-body hover:bg-neutral-700 shadow-black/80 hover:text-highlight2 border-highlight2 bg-highlight2">
                       View Website &nbsp;{" "}
                       <ArrowNarrowRightIcon className="w-6 h-6 text-black hover:text-highlight2" />
                     </p>

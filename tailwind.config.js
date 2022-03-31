@@ -16,7 +16,7 @@ module.exports = {
       backgroundImage: {
         hero: "url('/trees.jpg')",
         quote: "url('/dots.svg')",
-        testimonial: "url('/.jpg')",
+        testimonial: "url('/dark-bg2.jpg')",
       },
       colors: {
         highlight1: "#dc2626",
