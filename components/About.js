@@ -21,8 +21,8 @@ export default function About() {
           </p>
           <br />
           <p>
-            Our modern, affordable websites are sure to impress visitors and
-            help you convert sales.
+            Our modern, affordable websites are designed specifically to help
+            you convert online visitors into paying customers.
           </p>
         </div>
       </FadeIn>

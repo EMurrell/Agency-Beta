@@ -6,13 +6,13 @@ const features = [
     name: "Ultra-Fast",
     image: "/speedometer.png",
     description:
-      "Our websites are built on modern web technologies and are optimized for incredibly fast load times. ",
+      "Built on modern web technologies and optimized for incredibly fast load times. ",
   },
   {
     name: "Fully Responsive",
     image: "/resp-dev.png",
     description:
-      "We deliver pixel-perfect design that looks and works great on all devices and browsers.",
+      "Pixel-perfect design that looks and works great on all devices and browsers.",
   },
   {
     name: "Intuitive Design",
@@ -25,7 +25,7 @@ const features = [
 export default function Features() {
   return (
     <div id="" className="relative pb-4 bg-white font-display">
-      <div className="h-40 bg-transparent"></div>
+      <div className="h-40 "></div>
       <div className="max-w-md px-4 mx-auto text-center -mt-52 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
         <div className="">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
