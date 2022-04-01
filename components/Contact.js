@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Github, Devdotto, Twitter } from "@icons-pack/react-simple-icons";
+import { Facebook, Twitter, Instagram } from "@icons-pack/react-simple-icons";
 import { MailIcon, ArrowNarrowRightIcon } from "@heroicons/react/outline";
 import FadeIn from "../animations/FadeIn";
 import FadeUp from "../animations/FadeUp";
@@ -16,9 +16,20 @@ export default function Contact() {
     >
       <div className="flex flex-col py-20 2xl:py-20 lg:flex-row ">
         <FadeUp>
-          <h1 className="pr-2 mb-12 text-4xl font-medium md:text-5xl lg:text-6xl lg:w-1/2">
+          <h1 className="pr-2 mb-8 text-4xl font-medium md:text-5xl lg:text-6xl lg:w-1/2">
             Let&apos;s make something great.
           </h1>
+          <div className="flex flex-row mb-10">
+            <a href="https://facebook.com/trailbridgeweb">
+              <Facebook className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight2" />
+            </a>
+            <a href="https://twitter.com/trailbridgeweb">
+              <Twitter className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight2" />
+            </a>
+            <a href="https://instagram.com/trailbridgeweb">
+              <Instagram className="w-8 h-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight2" />
+            </a>
+          </div>
         </FadeUp>
         <FadeIn>
           <div className="flex flex-col text-base lg:text-lg">
@@ -51,17 +62,6 @@ export default function Contact() {
                 <p className=" text-neutral-400 font-body">(613) 601-0262</p>
               </div>
             </a>
-            {/* <a href="https://twitter.com/emurrelldev">
-              <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
-                <h2 className="flex flex-row w-max">
-                  Twitter &nbsp;
-                  <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
-                </h2>
-                <p className=" text-neutral-500 font-body">
-                  twitter.com/emurrelldev
-                </p>
-              </div>
-            </a> */}
           </div>
         </FadeIn>
       </div>
