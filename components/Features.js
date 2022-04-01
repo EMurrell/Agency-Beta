@@ -6,7 +6,7 @@ const features = [
     name: "Ultra-Fast",
     image: "/speedometer.png",
     description:
-      "Built on modern web technologies and optimized for incredibly fast load times. ",
+      "Built on modern web technologies and optimized for incredibly fast load times.",
   },
   {
     name: "Fully Responsive",
