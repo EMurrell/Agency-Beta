@@ -21,11 +21,12 @@ export default function Testimonials() {
           <FadeIn>
             <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-white md:text-2xl">
               <em>
-                &ldquo;I needed to modernize my old website, and I&apos;m happy
-                I found Trailbridge Web.&nbsp; Eric did a great job designing my
-                new site, and was really easy to work with...they guided me
-                through the whole process.&nbsp; I would easily recommend
-                them.&rdquo;
+                &ldquo;I dealt with Eric the owner, very professional and prompt
+                to reply.... I felt like I was in good hands the whole time. He
+                basically took care of everything. He had very good suggestions
+                and overall more than pleased with the outcome. I would
+                recommend Trailbridge Web to anyone looking for a new
+                website&rdquo;
               </em>
             </div>
           </FadeIn>

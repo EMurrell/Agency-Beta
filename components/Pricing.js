@@ -5,47 +5,48 @@ import Arrow from "./Arrow";
 
 const tiers = [
   {
-    name: "Static",
+    name: "Basic",
     href: "#",
     price: 949,
     description: "A quick way to get your business online.",
     features: [
-      "One multi-page, multi-section website (up to 3 pages)",
+      "One single-page, multi-section website (up to 4 sections)",
       "Custom domain*",
-      "2 revisions included",
+      "1 revision included",
       "Free non-premium stock photos and illustrations",
-
-      "Assist with 'Google My Business' setup",
+      "Client provides logo, photography, digital assets, etc.",
     ],
   },
   {
     name: "Dynamic",
     href: "#",
     price: 1849,
-    description: "Gives you the power to edit.",
+    description: "A comprehensive, interactive solution.",
     features: [
-      "One multi-page, multi-section website (up to 6 pages)",
+      "One multi-page, multi-section website (up to 5 pages, 5 sections each)",
       "Custom domain*",
       "3 revisions included",
       "Free non-premium stock photos and illustrations",
-
+      "Client provides logo, photography, digital assets, etc.",
       "Assist with 'Google My Business' setup",
-      "CMS integration - allows you to edit and publish changes without code",
+      "Scroll animations and micro-interactions",
       "Setup custom email hosting/Google Workspace**",
+      "Custom social media preview images",
+      "Google Search Console setup and indexing",
     ],
   },
 ];
 
 export default function Pricing() {
   return (
-    <section id="Pricing" className="mt-20 font-display">
+    <section id="Price" className="flex flex-col justify-center font-display">
       <FadeIn>
-        <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+        <div className="px-4 pt-24 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto space-y-1 lg:max-w-none">
-            <p className="text-4xl font-medium text-neutral-900 lg:text-6xl">
+            <p className="pt-2 text-4xl font-medium text-neutral-900 lg:text-6xl">
               Pay Once.
             </p>
-            <p className="pt-1 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
+            <p className="pt-1 pb-12 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
               No monthly hosting fees.
             </p>
           </div>
@@ -60,7 +61,7 @@ export default function Pricing() {
                 {tiers.map((tier) => (
                   <div
                     key={tier.name}
-                    className="flex flex-col mx-2 overflow-hidden border rounded-md shadow-lg border-highlight2 shadow-neutral-700/50"
+                    className="flex flex-col pb-6 mx-2 overflow-hidden border-2 rounded-md shadow-lg border-highlight2 shadow-neutral-800/50"
                   >
                     <div className="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                       <div className="flex flex-row">
@@ -96,7 +97,7 @@ export default function Pricing() {
                           </li>
                         ))}
                       </ul>
-                      <div className="">
+                      {/* <div className="">
                         <a
                           href={tier.href}
                           className="flex items-center justify-center px-5 py-3 text-base font-medium border-2 rounded-md shadow-lg text-neutral-900 bg-highlight2 border-highlight2 shadow-neutral-800/50 hover:text-highlight2 hover:bg-transparent"
@@ -104,33 +105,30 @@ export default function Pricing() {
                         >
                           Get started
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-          <div className="relative px-4 mx-auto mt-8 text-xs max-w-7xl sm:px-6 lg:px-8 lg:mt-5 text-neutral-800">
-            <div className="max-w-md mx-auto lg:max-w-5xl ">
-              <p>
-                * We buy your domain for your first year. Domain renewal
-                typically costs approx. $15 per YEAR. Premium domains may be
-                purchased at an extra cost. We do not receive any portion of
-                these payments.
-              </p>{" "}
-              <p>
-                ** Custom email hosting/
-                <a
-                  href="https://workspace.google.com/pricing.html?gclid=CjwKCAiA55mPBhBOEiwANmzoQmEuufRueGbdWlalzcLKSN_WebvB_43Mrwr9IBaGv5gXlLcFq29VgBoCFnMQAvD_BwE&gclsrc=aw.ds"
-                  className="italic text-highlight2"
-                >
-                  Google Workspace
-                </a>{" "}
-                setup is optional, monthly charges apply and are payable to
-                Google. We do not receive any portion of these payments.
-              </p>
-            </div>
+          <div className="flex flex-col px-6 mx-auto mt-10 text-xs max-w-prose text-neutral-800">
+            <p>
+              * We buy your domain for your first year. Domain renewal typically
+              costs approx. $15 per YEAR. Premium domains may be purchased at an
+              extra cost. We do not receive any portion of these payments.
+            </p>{" "}
+            <p>
+              ** Custom email hosting/
+              <a
+                href="https://workspace.google.com/pricing.html?gclid=CjwKCAiA55mPBhBOEiwANmzoQmEuufRueGbdWlalzcLKSN_WebvB_43Mrwr9IBaGv5gXlLcFq29VgBoCFnMQAvD_BwE&gclsrc=aw.ds"
+                className="italic text-highlight2"
+              >
+                Google Workspace
+              </a>{" "}
+              setup is optional, monthly charges apply and are payable to
+              Google. We do not receive any portion of these payments.
+            </p>
           </div>
         </div>
       </FadeIn>
