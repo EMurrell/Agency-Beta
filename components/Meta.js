@@ -5,6 +5,7 @@ export default function Meta() {
   return (
     <Head>
       <title>Trailbridge Web</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta
         name="description"
         content="Modern Websites for Small Businesses."
