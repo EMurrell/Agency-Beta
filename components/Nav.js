@@ -4,7 +4,7 @@ import Image from "next/image";
 import { AnimatePresence, motion, useCycle } from "framer-motion";
 import { Github, Devdotto, Twitter } from "@icons-pack/react-simple-icons";
 import { MailIcon } from "@heroicons/react/outline";
-import { Spiral as Hamburger } from "hamburger-react";
+import { Spin as Hamburger } from "hamburger-react";
 import { useState, useEffect } from "react";
 
 const links = [

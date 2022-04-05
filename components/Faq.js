@@ -19,6 +19,11 @@ const faqs = [
       "You will always retain 100% ownership of your website and it's content.",
   },
   {
+    question: "What are some examples of common 'sections' of a website",
+    answer:
+      "Sections include Hero Image, FAQ, Contact, About, Pricing, Footer, Features, etc. ",
+  },
+  {
     question: "What about SEO?",
     answer:
       "Our websites are developed following SEO best practices, and produce very high lighthouse scores.",

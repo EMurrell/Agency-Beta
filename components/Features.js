@@ -18,7 +18,7 @@ const features = [
     name: "Intuitive Design",
     image: "/bulb.png",
     description:
-      "Clear navigation and concise presentation of information are cornerstones of our design process.",
+      "Clear navigation and calls to action help guide the user toward your goal.",
   },
 ];
 
@@ -48,7 +48,7 @@ export default function Features() {
                       {feature.name}
                     </h3>
 
-                    <p className="mt-4 text-base text-neutral-900 font-body">
+                    <p className="mt-4 text-lg text-neutral-900 font-body">
                       {feature.description}
                     </p>
                   </div>

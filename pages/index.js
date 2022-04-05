@@ -10,6 +10,7 @@ import Features from "../components/Features";
 import Faq from "../components/Faq";
 import Price1 from "../components/Price1";
 import About from "../components/About";
+import Tech from "../components/Tech";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       <About />
       <Testimonial />
       <Pricing />
-
+      <Tech />
       <Faq />
       <Contact />
     </>
