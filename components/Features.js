@@ -3,16 +3,16 @@ import FadeIn from "../animations/FadeIn";
 
 const features = [
   {
-    name: "Ultra-Fast",
-    image: "/speedometer.png",
-    description:
-      "Built on modern web technologies and optimized for incredibly fast load times.",
-  },
-  {
     name: "Fully Responsive",
     image: "/resp-dev.png",
     description:
       "Pixel-perfect design that looks and works great on all devices and browsers.",
+  },
+  {
+    name: "Ultra-Fast",
+    image: "/speedometer.png",
+    description:
+      "Built on modern web technologies and optimized for incredibly fast load times.",
   },
   {
     name: "Intuitive Design",

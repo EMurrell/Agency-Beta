@@ -17,7 +17,7 @@ export default function Meta() {
         content="Modern Websites for Small Businesses."
       />
       <meta name="twitter:card" content="summary_large_image" />
-      {/* <meta name="twitter:site" content="@emurrelldev" /> */}
+
       <meta
         name="twitter:image"
         content="https://i.postimg.cc/J0jRSYTc/facebook-preview.jpg"
