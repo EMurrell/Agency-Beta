@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 
-function FadeIn({ children, isVisible }) {
+function FadeRight({ children, isVisible }) {
   const controls = useAnimation();
   const [ref, inView] = useInView({ threshold: 0.4 });
 
@@ -33,4 +33,4 @@ function FadeIn({ children, isVisible }) {
   );
 }
 
-export default FadeIn;
+export default FadeRight;
