@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FadeUp from "../animations/FadeUp";
 import FadeIn from "../animations/FadeIn";
 
 const features = [
@@ -44,13 +45,16 @@ export default function Features() {
                         />
                       </span>
                     </div>
-                    <h3 className="mt-6 text-2xl font-medium tracking-tight text-neutral-900">
-                      {feature.name}
-                    </h3>
-
-                    <p className="mt-4 text-lg text-neutral-900 font-body">
-                      {feature.description}
-                    </p>
+                    <FadeUp>
+                      <h3 className="mt-6 text-2xl font-medium tracking-tight text-neutral-900">
+                        {feature.name}
+                      </h3>
+                    </FadeUp>
+                    <FadeIn>
+                      <p className="mt-4 text-lg text-neutral-900 font-body">
+                        {feature.description}
+                      </p>
+                    </FadeIn>
                   </div>
                 </div>
               </div>
