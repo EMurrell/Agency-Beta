@@ -10,7 +10,7 @@ const tiers = [
     price: 949,
     description: "A simple way to get your business online.",
     features: [
-      "One single-page, multi-section website (up to 4 sections)",
+      "One single-page, multi-section website (up to 5 sections)",
       "Custom domain*",
       "1 revision included",
       "Free non-premium stock photos and illustrations",
@@ -25,7 +25,7 @@ const tiers = [
     price: 1849,
     description: "A comprehensive, interactive solution.",
     features: [
-      "One multi-page, multi-section website (up to 5 pages, 5 sections each)",
+      "One multi-page, multi-section website (up to 5 pages, 6 sections for homepage)",
       "Custom domain*",
       "3 revisions included",
       "Free non-premium stock photos and illustrations",
