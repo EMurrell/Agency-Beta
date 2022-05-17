@@ -87,7 +87,7 @@ export default function Nav() {
                       onClick={cycleOpen}
                     >
                       <Image
-                        src="/logo-small.png"
+                        src="/logo-md.png"
                         alt="trailbridge logo"
                         height={58}
                         width={150}

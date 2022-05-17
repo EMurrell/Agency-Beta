@@ -18,29 +18,19 @@ export default function Testimonials() {
         </FadeUp>
         <div className="flex self-center w-24 border-t-2 border-highlight2"></div>
         <blockquote className="mt-6">
-          <FadeIn>
+          <FadeUp>
             <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-white md:text-2xl">
               <em>
-                &ldquo;...Very professional and prompt to reply.... I felt like
-                I was in good hands the whole time... I would recommend
-                Trailbridge Web to anyone looking for a new website&rdquo;
+                &ldquo;Very professional... I would recommend Trailbridge Web to
+                anyone looking for a new website&rdquo;
               </em>
             </div>
-          </FadeIn>
-          <footer className="">
-            <div className="flex flex-col items-center justify-center">
-              <FadeIn>
+
+            <footer className="">
+              <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center mt-3 text-center">
-                  {/* <div className="pl-4 opacity-90">
-                    <Image
-                      src="/mtclogo2.png"
-                      alt="mtc logo"
-                      width={100}
-                      height={55}
-                    />
-                  </div> */}
                   <p className="text-base font-medium font-body text-neutral-300">
-                    Phillip Lavergne
+                    Phillip L.
                   </p>
 
                   <p className="text-base font-medium font-body text-neutral-300">
@@ -53,12 +43,12 @@ export default function Testimonials() {
                     </p>
                   </a> */}
                 </div>
-              </FadeIn>
-            </div>
-          </footer>
+              </div>
+            </footer>
+          </FadeUp>
         </blockquote>
         <blockquote className="mt-12">
-          <FadeIn>
+          <FadeUp>
             <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-white md:text-2xl">
               <em>
                 &ldquo;Working with Eric (owner) on my website was so easy... I
@@ -66,36 +56,33 @@ export default function Testimonials() {
                 advertising anywhere else...&rdquo;
               </em>
             </div>
-          </FadeIn>
-          <footer className="">
-            <div className="flex flex-col items-center justify-center">
-              <FadeIn>
+
+            <footer className="">
+              <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center mt-3 text-center">
                   <p className="text-base font-medium font-body text-neutral-300">
-                    Kaarina Dewan
+                    Kaarina D.
                   </p>
 
                   <p className="text-base font-medium font-body text-neutral-300">
                     Owner, Pup To Pal
                   </p>
                 </div>
-              </FadeIn>
-            </div>
-          </footer>
+              </div>
+            </footer>
+          </FadeUp>
         </blockquote>
         <blockquote className="mt-12">
-          <FadeIn>
+          <FadeUp>
             <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-white md:text-2xl">
               <em>
-                &ldquo;Our experience with the customer service at Trailbridge
-                has been great. Eric understood our vision and made it a
-                reality. Definitely recommend.&rdquo;
+                &ldquo;Trailbridge has been great. Eric understood our vision
+                and made it a reality. Definitely recommend.&rdquo;
               </em>
             </div>
-          </FadeIn>
-          <footer className="">
-            <div className="flex flex-col items-center justify-center">
-              <FadeIn>
+
+            <footer className="">
+              <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center mt-3 text-center">
                   <p className="text-base font-medium font-body text-neutral-300">
                     Lynn W.
@@ -105,9 +92,33 @@ export default function Testimonials() {
                     Client
                   </p>
                 </div>
-              </FadeIn>
+              </div>
+            </footer>
+          </FadeUp>
+        </blockquote>
+        <blockquote className="mt-12">
+          <FadeUp>
+            <div className="max-w-3xl mx-auto text-lg leading-7 text-center text-white md:text-2xl">
+              <em>
+                &ldquo;Highly recommend to anybody looking to up their web
+                game.&rdquo;
+              </em>
             </div>
-          </footer>
+
+            <footer className="">
+              <div className="flex flex-col items-center justify-center">
+                <div className="flex flex-col items-center mt-3 text-center">
+                  <p className="text-base font-medium font-body text-neutral-300">
+                    Van T.
+                  </p>
+
+                  <p className="text-base font-medium font-body text-neutral-300">
+                    Client
+                  </p>
+                </div>
+              </div>
+            </footer>
+          </FadeUp>
         </blockquote>
       </div>
     </section>

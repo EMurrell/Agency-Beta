@@ -30,7 +30,8 @@ const faqs = [
   },
   {
     question: "Do you write copy for websites?",
-    answer: "Basic copywriting services are available at an additional cost.",
+    answer:
+      "Basic copywriting services are available and charged at an hourly rate.",
   },
 ];
 
