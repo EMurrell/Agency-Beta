@@ -30,7 +30,7 @@ export default function Testimonials() {
               <div className="flex flex-col items-center justify-center">
                 <div className="flex flex-col items-center mt-3 text-center">
                   <p className="text-base font-medium font-body text-neutral-300">
-                    Phillip L.
+                    Philippe L.
                   </p>
 
                   <p className="text-base font-medium font-body text-neutral-300">
