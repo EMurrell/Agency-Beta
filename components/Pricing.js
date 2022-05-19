@@ -118,7 +118,7 @@ export default function Pricing() {
           <div className="flex flex-col px-6 mx-auto mt-10 text-xs max-w-prose text-neutral-800">
             <p>
               * We buy your domain for your first year. Domain renewal typically
-              costs approx. $15 per YEAR. Premium domains may be purchased at an
+              costs approx. $20 per YEAR. Premium domains may be purchased at an
               extra cost. We do not receive any portion of these payments.
             </p>{" "}
             <p>
