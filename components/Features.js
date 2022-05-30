@@ -32,7 +32,7 @@ export default function Features() {
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="py-6">
-                <div className="flow-root px-8 pb-8 mx-6 bg-white border-2 rounded-lg shadow-lg shadow-neutral-800/50 lg:mx-0 md:mx-32 h-72 border-highlight2 ">
+                <div className="flow-root px-6 pb-8 mx-6 bg-white border-2 rounded-lg shadow-lg shadow-neutral-800/50 lg:mx-0 md:mx-32 h-72 border-highlight2 ">
                   <div className="-mt-12">
                     <div>
                       <span className="inline-flex items-center justify-center p-4 py-6 bg-white border-2 rounded-full shadow-lg shadow-neutral-800/50 border-highlight2">
@@ -46,12 +46,12 @@ export default function Features() {
                       </span>
                     </div>
                     <FadeUp>
-                      <h3 className="mt-6 text-2xl font-medium tracking-tight text-neutral-900">
+                      <h3 className="mt-6 text-xl font-medium tracking-tight md:text-2xl text-neutral-900">
                         {feature.name}
                       </h3>
                     </FadeUp>
                     <FadeIn>
-                      <p className="mt-4 text-lg text-neutral-900 font-body">
+                      <p className="mt-4 text-base md:text-lg text-neutral-900 font-body">
                         {feature.description}
                       </p>
                     </FadeIn>
