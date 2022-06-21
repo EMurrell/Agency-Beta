@@ -22,6 +22,10 @@ export default function Tech() {
       </FadeUp>
       <div className="flex self-center w-24 pb-4 border-t-2 border-highlight2"></div>
       <FadeIn>
+        <p className="pb-6 text-lg text-center md:px-12 lg:px-64 2xl:px-96 text-neutral-900 lg:text-2xl">
+          We use modern web frameworks such as Next.js, which are faster and
+          more secure than Wordpress Websites.
+        </p>
         <div className="flex flex-row justify-center">
           <Nextdotjs className="w-12 h-12 m-4 md:h-20 md:w-20 text-neutral-800/50 md:m-10 " />
           <Netlify className="w-12 h-12 m-4 md:h-20 md:w-20 text-neutral-800/50 md:m-10" />

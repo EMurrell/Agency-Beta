@@ -17,7 +17,7 @@ export default function Contact() {
       <div className="flex flex-col py-20 2xl:py-20 lg:flex-row ">
         <FadeUp>
           <h1 className="pr-2 mb-8 text-4xl font-medium md:text-5xl lg:text-6xl lg:w-1/2">
-            Let&apos;s make something great.
+            Trailbridge Web
           </h1>
           <div className="flex flex-row mb-10">
             <a href="https://facebook.com/trailbridgeweb">
@@ -32,7 +32,7 @@ export default function Contact() {
           </div>
         </FadeUp>
         <FadeIn>
-          <div className="flex flex-col text-base lg:text-lg">
+          <div className="flex flex-col text-lg lg:text-xl xl:pl-40">
             <div>
               <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
                 <h2 className="flex flex-row w-max">Business Hours:</h2>
@@ -72,3 +72,4 @@ export default function Contact() {
     </footer>
   );
 }
+
