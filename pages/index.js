@@ -8,9 +8,9 @@ import Header from "../components/Header";
 import Testimonial from "../components/Testimonial";
 import Features from "../components/Features";
 import Faq from "../components/Faq";
-import Price1 from "../components/Price1";
 import About from "../components/About";
 import Tech from "../components/Tech";
+import Pricing2 from "../components/Pricing2";
 
 export default function Home() {
   return (
@@ -21,10 +21,12 @@ export default function Home() {
       <Features />
       <About />
       <Testimonial />
-      <Pricing />
+
+      <Pricing2 />
       <Tech />
       <Faq />
       <Contact />
     </>
   );
 }
+
