@@ -33,15 +33,17 @@ const dynamicFeatures = [
 
 export default function Pricing2() {
   return (
-    <div className="font-sans">
-      <div className="px-4 pt-16 sm:px-6 lg:px-8 lg:pt-20">
+    <section className="font-sans" id="Price">
+      <div className="px-4 pt-24 sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
-          <h2 className="pt-2 text-4xl font-semibold text-neutral-900 lg:text-6xl">
-            Pay Once.
-          </h2>
-          <p className="pt-1 pb-2 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
-            No monthly hosting fees.
-          </p>
+          <FadeUp>
+            <h2 className="text-4xl font-semibold text-neutral-900 lg:text-6xl">
+              Pay Once.
+            </h2>
+            <p className="pt-1 pb-2 text-2xl font-medium lg:pt-3 lg:text-4xl text-neutral-900">
+              No monthly hosting fees.
+            </p>
+          </FadeUp>
         </div>
       </div>
 
@@ -71,6 +73,7 @@ export default function Pricing2() {
                         </div>
                       </div>
                     </div>
+
                     <div className="flex flex-col justify-between flex-1 p-6 border-t-2 border-neutral-100 bg-neutral-50 sm:p-10 lg:p-6 xl:p-10">
                       <ul role="list" className="space-y-4">
                         {basicFeatures.map((feature) => (
@@ -91,6 +94,7 @@ export default function Pricing2() {
                   </div>
                 </div>
               </div>
+
               <div className="max-w-lg mx-auto mt-10 lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4">
                 <div className="relative z-10 rounded-lg shadow-xl">
                   <div
@@ -141,6 +145,7 @@ export default function Pricing2() {
                   </div>
                 </div>
               </div>
+
               <div className="max-w-md mx-auto mt-10 lg:m-0 lg:max-w-none lg:col-start-6 lg:col-end-8 lg:row-start-2 lg:row-end-3">
                 <div className="flex flex-col h-full overflow-hidden border-2 rounded-lg shadow-lg border-highlight2 lg:border-l-0 lg:rounded-r-lg">
                   <div className="flex flex-col flex-1">
@@ -186,6 +191,7 @@ export default function Pricing2() {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col px-6 mx-auto mb-16 text-xs max-w-prose text-neutral-800">
         <p>
           * We buy your domain for your first year. Domain renewal typically
@@ -209,6 +215,6 @@ export default function Pricing2() {
           templates for you.
         </p>
       </div>
-    </div>
+    </section>
   );
 }
