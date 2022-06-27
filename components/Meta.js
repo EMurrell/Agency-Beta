@@ -6,10 +6,7 @@ export default function Meta() {
     <Head>
       <title>Trailbridge Web</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      <meta
-        name="description"
-        content="Modern Websites for Small Businesses."
-      />
+      <meta name="description" content="Websites for Small Businesses." />
       <meta property="og:image" content="/fb-preview.jpg" />
       <meta property="og:title" content="Trailbridge Web" />
       <meta
@@ -60,3 +57,4 @@ export default function Meta() {
     </Head>
   );
 }
+
