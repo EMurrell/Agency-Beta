@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Meta() {
   return (
     <Head>
-      <title>Trailbridge Web</title>
+      <title>Trailbridge Web | Ottawa Web Design & Website Development</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="description" content="Websites for Small Businesses." />
       <meta property="og:image" content="/fb-preview.jpg" />
